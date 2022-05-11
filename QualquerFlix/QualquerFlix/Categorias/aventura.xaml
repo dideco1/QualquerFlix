@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QualquerFlix.Categorias.aventura"
+             BackgroundColor="#2f2f30">
+    <ContentPage.Content>
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*, *">
+            <ImageButton x:Name="btnUncharted"  Grid.Row="0" Grid.Column="0" Clicked="btnUncharted_Clicked" BackgroundColor="#2f2f30" />
+            <ImageButton x:Name="btnDrEstranho" Grid.Row="0" Grid.Column="1" Clicked="btnDrEstranho_Clicked" BackgroundColor="#2f2f30" />
+
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

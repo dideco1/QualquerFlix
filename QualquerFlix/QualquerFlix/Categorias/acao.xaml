@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QualquerFlix.Categorias.acao"
+             BackgroundColor="#2f2f30">
+    <ContentPage.Content>
+        <Grid ColumnDefinitions="*, *" RowDefinitions="*,*, *" >
+            <ImageButton x:Name="btnBatman" Clicked="btnBatman_Clicked" Grid.Column="0" Grid.Row="0" BackgroundColor="#2f2f30" />
+            <ImageButton x:Name="btnMiranha" Clicked="btnMiranha_Clicked" Grid.Column="1" Grid.Row="0" BackgroundColor="#2f2f30" />
+            <ImageButton x:Name="btnMorbius" Clicked="btnMorbius_Clicked" Grid.Column="0" Grid.Row="1" BackgroundColor="#2f2f30" Grid.ColumnSpan="2" />
+
+        </Grid>
+    
+    </ContentPage.Content>
+</ContentPage>
